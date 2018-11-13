@@ -1,6 +1,6 @@
 {
   "name": "@salling-group/pagination-traverser",
-  "description": "A library for traversing paginated API ressources.",
+  "description": "A library for traversing paginated API resources.",
   "repository": "https://github.com/DanskSupermarked/sg-npm-pagination-traverser",
   "license": "MIT",
   "author": {
