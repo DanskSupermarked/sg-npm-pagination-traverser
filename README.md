@@ -38,11 +38,14 @@ The `Traverser` class has the following methods:
 
 ## Example: Paginate response from Stores API
 ```js
+const Traverser = require('@salling-group/pagination-traverser');
 const { createInstance } = require('@salling-group/auth');
+
 const instance = createInstance({
   'auth': {
     'issuer': 'my_issuer',
     'secret': 'my_secret',
+    'type': 'jwt',
   },
 });
 const traverser = new Traverser(instance, '/v1/stores/');

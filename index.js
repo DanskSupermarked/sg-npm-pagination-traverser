@@ -13,6 +13,10 @@ class Traverser {
    * A mapper to modify the entries in the pages.
    */
   constructor(instance, resource, baseOptions = {}) {
+    if (baseOptions.params && baseOptions.params.page) {
+      throw new Error('The page parameter should not be provided in baseOptions.');
+    }
+
     this.instance = instance;
     this.resource = resource;
     this.baseOptions = baseOptions;
