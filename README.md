@@ -1,8 +1,7 @@
 # Salling Group Pagination Traverser
 `Traverser` helps you paginate through Salling Group API resources
 (e.g. the Stores API serves stores in pages).
-It relies on the `Link` and will throw an error if none is present.
-
+It relies on a `Link` header in responses and will throw an error if none is present.
 `Traverser` class is required like this:
 ```js
 const Traverser = require('@salling-group/pagination-traverser');
