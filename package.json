@@ -1,0 +1,15 @@
+{
+  "name": "@salling-group/pagination-traverser",
+  "description": "A library for traversing paginated API ressources.",
+  "repository": "https://github.com/DanskSupermarked/sg-npm-pagination-traverser",
+  "license": "MIT",
+  "author": {
+    "name": "Salling Group - API Developers",
+    "email": "apisupport@sallinggroup.com",
+    "url": "https://developer.sallinggroup.com/"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "5.2.0"
+  }
+}
